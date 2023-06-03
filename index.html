@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Programas</title>
+    
+    <script src="formularios.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Verificar Palíndromo</h1>
+  <form id="palindromeForm">
+    <label for="word">Palabra:</label>
+    <input type="text" id="word" name="word">
+    <button type="button" onclick="checkPalindrome()">Ejecutar</button>
+    <p id="palindromeResult"></p>
+  </form>
+
+  <h1>Sustituir Vocales</h1>
+  <form id="replaceVowelsForm">
+    <label for="fullName">Nombre completo:</label>
+    <input type="text" id="fullName" name="fullName">
+    <label for="char">Caracter:</label>
+    <input type="text" id="char" name="char">
+    <button type="button" onclick="replaceVowels()">Ejecutar</button>
+    <p id="replaceVowelsResult"></p>
+  </form>
+
+  <h1>Calcular Edad</h1>
+  <form id="calculateAgeForm">
+    <label for="fullName2">Nombre completo:</label>
+    <input type="text" id="fullName2" name="fullName2">
+    <label for="birthdate">Fecha de nacimiento:</label>
+    <input type="date" id="birthdate" name="birthdate">
+    <button type="button" onclick="calculateAge()">Ejecutar</button>
+    <p id="calculateAgeResult"></p>
+  </form>
+
+  <h1>Números Primos</h1>
+  <button type="button" onclick="showPrimes()">Mostrar Números</button>
+  <div id="primes"></div>
+
+
+
+
+</body>
+</html>
